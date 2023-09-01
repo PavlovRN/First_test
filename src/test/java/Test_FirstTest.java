@@ -70,6 +70,7 @@ public class Test_FirstTest {
         }
     }
 
+
     @Test
     public void otus_about_me() throws IOException {
 
@@ -195,6 +196,8 @@ public class Test_FirstTest {
         assertField(habrContact, "https://www.hubr.com/kreedmusic");
 
     }
+
+
     private void loginOTUS(){
 
         WebDriverWait wait = new WebDriverWait(driver,5);
